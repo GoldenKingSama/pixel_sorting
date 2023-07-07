@@ -1,8 +1,8 @@
 from PIL import Image
 import numpy as np
 
-input_path = r"C:\Users\GoldenKingSama\Desktop\New folder (2)\image.jpg"
-output_path = r"C:\Users\GoldenKingSama\Desktop\New folder (2)\imagaae.jpg"
+input_path = input("Enter the input image path: ")
+output_path = input("Enter the output image path: ")
 
 image = Image.open(input_path)
 img_array = np.array(image)
